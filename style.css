@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.heh{
+    text-align: center;
+    background-color: #999;
+}
+
+.hero {
+    background-image: url('images/artah\ png.PNG') ;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+}
+.welcome{
+    color: white;
+}
+
+.hero h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-top: 10px;
+   
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color:    #2C3E50 ;
+    margin-bottom: 20px;
+}
+
+.projects-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+.progress-bar {
+    margin: 20px 0;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.progress {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+.html-bar {
+    background-color: #ff7f50;
+    height: 100%;
+    border-radius: 5px;
+}
+.motto{
+    font-weight: bold;
+    font-size: medium;
+}
+.header{
+    font-style:  italic;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.css-bar {
+    background-color: #ff7f50;
+    height: 100%;
+    border-radius: 5px;
+}
+.js-bar {
+    background-color: #ff7f50;
+    height: 100%;
+    border-radius: 5px;
+}
